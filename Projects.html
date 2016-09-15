@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <!-- Reference libraries for bootstrap -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+
+    <meta name = "author" content = "Sneha Ramesh">
+    <meta name = "description" content = "Sneha Web Page">
+    <meta name = "keywords" content="Sneha,CS,Graduate,UTD,Java,.Net,SDN,HTML,CSS,XML,JavaScript, C#">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Favicon -->
+   <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="Skills.html">Technical Skills</a></li>
+        <li><a href="Projects.html">Projects</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+<div class="container-fluid text-center">
+  <div class="row content">
+    <div class="col-sm-2 sidenav">
+      <p><img src="project.png" alt="projectpic" height="200" width="115"></p>
+    </div>
+    <div class="col-sm-8 text-left">
+      <h3>Simulation of a M/M/n priority queuing system using C++ and calculation of the queueing theory metrics</h3>
+      <p>
+          I have Implemented a discrete event simulation for a queuing network with two classes of customers and two queues using C++. Also programmed the calculation and graphical comparison of the theoretical and the simulation values of the queuing theory metrics.
+        </p>
+      <hr>
+        <h3>Implemented the working of the Optimized Linked State Routing Protocol</h3>
+      <p>
+        Java based Simulation of OLSR protocols well suited for adhoc mobile networks.
+        The simulation is done using multiple Files and parsing.
+          
+        </p>
+        <hr>
+      <h3>Topology Monitor using OpenDayLight SDN Controller and Mininet</h3>
+      <p>
+          The topology monitor tool can be used to check the network topology - any missing
+'cable-connections'.The application takes the expected topology in the .DOT file format as input. And it obtains the topology information from the ODL using the rest-APIs 
+It compares the two topologies and displays missing/lost ‘cable-connectivity’.
+        </p>
+        <hr>
+      <h3>Vesper- Web Agent Tool</h3>
+      <p>
+          I developed a web application called Vesper designed to educate the agent community with the relevant feed of training videos and policy change information. The tool is built using ASP.NET framework. The server side is a C# application and uses technologies like Automapper, Resource culture and Dependency Injection. The client feed uses C# and scripting technologies like JQuery, Javascript, AJAX. The database is constructed using SQL and LINQ. I have used testing Frameworks like XUnit, Moq. The tool extensively uses Amazon web services for content management and Database, SSO for authentication. The project was completely compliant with the Expedia agile software Development approach.
+        </p>
+    </div>
+  </div>
+</div>
+
+<footer class="container-fluid text-center">
+  <p> </p>
+</footer>
+
+</body>
+</html>
+
