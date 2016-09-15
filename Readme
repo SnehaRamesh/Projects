@@ -1,0 +1,2 @@
+This is a project implemented to demonstrate the use of AJAX and JQuery. The UI has a checkbox which upon checked will allow you to laod XML file 
+and display the contents in the HTML Table.
